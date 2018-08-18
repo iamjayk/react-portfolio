@@ -1,0 +1,94 @@
+
+
+/* Profile Heading Section */
+
+.profile-heading {
+  height: 400px;
+  padding-top: 100px;
+}
+
+.profile-title {
+  margin: 10px;
+  font-size: 2.5em;
+}
+
+
+
+.profile-photo {
+  border: solid black 2px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+
+/* About-Me Section */
+.about-me-container, .skills-container, .portfolio-container {
+  margin: 50px 10px 10px 10px;
+
+}
+
+.about-me-container {
+  height: 500px;
+  background-color: white;
+}
+
+.about-me-title {
+  font-size: 60px;
+}
+
+.about-me-intro {
+  font-size:30px;
+}
+
+.about-me-desc {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 20px;
+
+}
+
+/* Skills Section */
+
+
+.skills-container {
+  height: 500px;
+  background-color: white;
+}
+
+.skills-heading {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.skills-section {
+  text-align: left;
+
+}
+
+.front-end-skills,
+.back-end-skills,
+.api-design-skills,
+.other-skills {
+  float: left;
+  margin: 50px;
+}
+
+/* Portfolio Section */
+
+.portfolio-container {
+  background-color: white;
+}
+
+.portfolio-heading {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.portfolio-player-stats {
+  margin-bottom: 100px;
+}
+
+.p-stat.container {
+  margin: 10px;
+}
