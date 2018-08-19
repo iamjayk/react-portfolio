@@ -10,11 +10,13 @@ export class Skills extends Component {
         <BackEnd />
         <APIDesign />
         <OtherSkills />
+        <ElectronicSkills />
       </div>
       </div>
     )
   }
 }
+
 
 const FrontEnd = () => {
   return (
@@ -64,11 +66,30 @@ const APIDesign = () => {
   )
 }
 
+const ElectronicSkills = () => {
+  return (
+    <div className="electronic-skills">
+    <h4>Microcontrollers and the world of IoT :) </h4>
+      <ul>
+        <li>Arduino</li>
+        <li>NodeMcu</li>
+        <li>Raspberry Pi</li>
+        <li>One Wire Sensors</li>
+        <li>I2C Sensors</li>
+      </ul>
+    </div>
+  )
+}
+
 const OtherSkills = () => {
   return (
     <div className="other-skills">
-    <h4>Other :</h4>
+    <h4>Other skills :</h4>
     <ul>
+      <li>C / C++</li>
+      <li>Java</li>
+      <li>PHP</li>
+      <li>WordPress</li>
       <li>Git</li>
       <li>Vim/ cURL / Postman / Httpie </li>
       <li>Linux</li>

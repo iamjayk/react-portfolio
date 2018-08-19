@@ -1,15 +1,28 @@
 
 
+
+/* BS Navbar */
+
+.bs-navbar {
+  margin: 30px;
+}
+
+
+
 /* Profile Heading Section */
 
 .profile-heading {
-  height: 400px;
   padding-top: 100px;
+  text-align: center;
+
 }
 
 .profile-title {
   margin: 10px;
-  font-size: 2.5em;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -19,6 +32,15 @@
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+
+.profile-social-icons a {
+  margin: 10px;
+}
+
+.profile-social-icons img {
+  height: 30px;
+  width: 30px;
 }
 
 
@@ -31,14 +53,18 @@
 .about-me-container {
   height: 500px;
   background-color: white;
+
 }
 
 .about-me-title {
   font-size: 60px;
+
 }
 
 .about-me-intro {
   font-size:30px;
+  text-align: center;
+  
 }
 
 .about-me-desc {
@@ -70,6 +96,13 @@
 .back-end-skills,
 .api-design-skills,
 .other-skills {
+  display:block;
+  float: left;
+  margin: 50px;
+}
+
+.electronic-skills {
+  display:block;
   float: left;
   margin: 50px;
 }
