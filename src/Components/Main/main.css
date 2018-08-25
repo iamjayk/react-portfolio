@@ -1,5 +1,6 @@
 
-
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 /* BS Navbar */
 
@@ -64,7 +65,7 @@
 .about-me-intro {
   font-size:30px;
   text-align: center;
-  
+
 }
 
 .about-me-desc {
@@ -111,15 +112,12 @@
 
 .portfolio-container {
   background-color: white;
+  height: 800px;
 }
 
 .portfolio-heading {
   font-size: 60px;
   margin-top: 0px;
-}
-
-.portfolio-player-stats {
-  margin-bottom: 100px;
 }
 
 .p-stat.container {

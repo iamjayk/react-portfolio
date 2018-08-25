@@ -41,7 +41,6 @@ class NavBar extends Component {
           <Link style={{ color: "white", margin: 5, backgroundColor: "black", fontSize: 15, padding: 10, textDecoration: "none" }} to="/portfolio"> Portfolio</Link>
         </ul>
       </nav>
-
     )
   }
 }
